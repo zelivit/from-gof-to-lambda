@@ -1,5 +1,15 @@
 package org.gof.examples.fluentinterface;
 
+import jdk.nashorn.internal.runtime.options.Option;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+import java.util.Random;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
+
 public class Main {
 
     public static void main( String[] args ) {
@@ -18,6 +28,5 @@ public class Main {
                     .subject("Your code sucks")
                     .body("...");
         });
-   }
-
+    }
 }
